@@ -27,5 +27,8 @@ const fs = require('fs')
 // const today = new Date()
 // console.log(today);
 
-const moment = require("moment")
-console.log(moment().format('dddd [the] Do [of] MMMM [in the year] YYYY'));
+// const moment = require("moment")
+// console.log(moment().format('dddd [the] Do [of] MMMM [in the year] YYYY'));
+
+const chalk = require('chalk')
+console.log(chalk.red("Hello!", chalk.bgBlue('World!')));
